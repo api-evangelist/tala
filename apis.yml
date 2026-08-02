@@ -1,8 +1,28 @@
 aid: tala
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tala.png
 name: Tala
-description: Tala is a company surfaced as a portfolio company of dcvc, ggv-capital, gv, ivp, kindred-ventures,
-  ribbit-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Tala is an AI-native digital financial services company providing instant
+  credit, digital wallets, money transfers, and cash-out services to
+  underserved consumers in informal economies. Built on a proprietary,
+  patent-pending credit-decisioning model trained on billions of dollars of
+  lending data, Tala has delivered more than $7B in credit access to over 13
+  million customers across Kenya, Mexico, the Philippines, India, Vietnam,
+  Guatemala, Panama, and the Dominican Republic. The company also offers
+  Embedded Credit infrastructure for partners. Tala reaches customers primarily
+  through consumer mobile apps; no public developer API or documentation portal
+  is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/tala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,9 +37,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Lending
+- Credit
+- Digital Wallet
+- Mobile
+- Embedded Finance
+- Consumer Finance
+- Emerging Markets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +58,16 @@ maintainers:
 common:
 - type: Website
   url: https://tala.co/
+- type: Blog
+  url: https://tala.co/blog/
+- type: PrivacyPolicy
+  url: https://tala.co/privacy-policy/
+- type: Support
+  url: https://tala.co/contact/
+- type: DomainSecurity
+  url: security/tala-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

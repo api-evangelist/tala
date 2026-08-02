@@ -1,0 +1,21 @@
+{
+  "repo": "tala",
+  "feeds": [
+    {
+      "source": "https://tala.co/feed/",
+      "feed_url": "https://tala.co/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://tala.co/",
+      "feed_url": "https://tala.co/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 7,
+  "fetched": "2026-08-01T15:49:00Z"
+}
