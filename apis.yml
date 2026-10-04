@@ -51,7 +51,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Credit
@@ -71,6 +71,7 @@ tags_raw:
 - Embedded Finance
 - Consumer Finance
 - Emerging Markets
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
